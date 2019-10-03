@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "worker",
+      "public": "dist/worker",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

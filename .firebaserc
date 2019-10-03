@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "service-worker-a46a1": {
+      "hosting": {
+        "worker": [
+          "service-worker-a46a1"
+        ]
+      }
+    }
+  }
+}

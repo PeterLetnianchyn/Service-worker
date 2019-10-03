@@ -20,9 +20,7 @@ export class AppComponent {
   ngOnInit(): void {
   this.postService.getPosts().subscribe((posts) => {
     this.posts = posts;
-    objectStore.getAll().onsuccess = function(event) {
-      alert("Got all customers: " + event.target.result);
-    };
+
   })
    /* const dbOpen = indexedDB.open('posts', 2) */
    /* const db = dbOpen.result; */
