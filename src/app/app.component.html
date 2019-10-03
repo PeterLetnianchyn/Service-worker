@@ -2,5 +2,7 @@
   <li>{{post.title}}</li>
 </ul>
  -->
- <button (click)="addPosts()">AddDDDD</button>
+ <button (click)="addPosts()">Add posts</button>
+ <button (click)="addUsers()">Add users</button>
+  <h3 *ngIf="status">{{status}} Mode</h3>
 <router-outlet></router-outlet>

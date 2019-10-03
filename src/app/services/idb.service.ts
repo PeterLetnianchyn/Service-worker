@@ -14,7 +14,7 @@ private _dbPromise;
 constructor() {
 }
 
-connectToIDB() {
+/* connectToIDB() {
   this._dbPromise = openDB('pwa-database', 1, {
     upgrade(UpgradeDB) {
       if (!UpgradeDB.objectStoreNames.contains('Items')) {
@@ -25,7 +25,7 @@ connectToIDB() {
       }
     }
   });
-}
+} */
 
 
 addItems(target: string, value: Post) {

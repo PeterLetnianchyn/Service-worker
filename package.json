@@ -25,6 +25,7 @@
     "@angular/service-worker": "~8.2.5",
     "firebase": "^6.6.2",
     "idb": "^4.0.4",
+    "ng-connection-service": "^1.0.4",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
