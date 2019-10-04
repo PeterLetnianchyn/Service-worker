@@ -84,4 +84,16 @@ request.onupgradeneeded = (event) => {
   }
 };
   }
+deleteDb(){
+const DBDeleteRequest = indexedDB.deleteDatabase("SomeDb");
+
+DBDeleteRequest.onerror = function(event) {
+  console.log("Error deleting database.");
+};
+ 
+DBDeleteRequest.onsuccess = function(event) {
+  console.log("Database deleted successfully");
+    
+};
+}
 }
